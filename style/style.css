@@ -35,7 +35,7 @@ body {
     color: rgb(0, 106, 80);
     font-family: Fira Sans;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
@@ -45,6 +45,8 @@ body {
 
 button:hover {
     cursor: pointer;
+    color: red;
+    background-color: yellowgreen;
   }
 
 
@@ -60,11 +62,7 @@ button:hover {
     align-items: center;
     margin: 100px 120px 100px 100px ;
     padding-right: 80px;
-    padding-left: 20px;
-}
-
-.bdiv1 {
-    padding-left: 0;
+    padding-left: 0px;
 }
 
 .bd2 {
@@ -90,13 +88,14 @@ button:hover {
 .btn2 {
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 15px;
     letter-spacing: 0%;
     text-align: left;
     border-radius: 8px;
     background: rgb(0, 106, 80);
+    padding: 10px 20px;
 }
 /*VISION*/
 .vision {
@@ -110,36 +109,37 @@ button:hover {
 
 .vision1 {
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
     border-radius: 16px;
     width: 750px;
     padding: 30px;
     justify-content: space-between;
     margin: 20px 0px 20px 10px;
     background: rgb(255, 255, 255);
-    background-color: #eabe88;
+    background-color: #e7c8a2;
 }
 
 .btn31 {
     color: white;
     font-weight: bold;
+    padding: 5px 10px;
     font-family: cursive;
     background-color: #8a5617;
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
     border-radius: 5px;
 }
 
 .vision2 {
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
     border-radius: 16px;
     width: 750px;
     padding: 30px;
     justify-content: space-between;
     margin: 20px 0px 20px 10px;
     background: rgb(255, 255, 255);
-    background-color: #ddec93be;
+    background-color: #dde9a5be;
 }
 
 .btn32 {
@@ -148,20 +148,21 @@ button:hover {
     font-family: cursive;
     background-color: #4f5b16be;
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
     border-radius: 5px;
+    padding: 5px 10px;
 }
 
 .vision3 {
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
     border-radius: 16px;
     width: 750px;
     padding: 30px;
     justify-content: space-between;
     margin: 20px 0px 20px 10px;
     background: rgb(255, 255, 255);
-    background-color: #67ae6ebe;
+    background-color: #abf1b2be;
 }
 
 .btn33 {
@@ -170,7 +171,8 @@ button:hover {
     font-family: cursive;
     background-color: #09430fbe;
     box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+    border: none;
+    padding: 5px 10px;
     border-radius: 5px;
 }
 
@@ -217,6 +219,10 @@ h1 {
     padding: 50px;
 }
 
+.des-div1 {
+    padding-right: 20px;
+}
+
 h2 {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -239,18 +245,21 @@ h2 {
 
 .recent1 img {
     border-radius: 20px;
+    border: none;
     padding-left: 10px;
 }
 
 .btn41 {
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
-    border-radius: 8px;
+    border-radius: 5px ;
+    border: none;
+    padding: 5px 10px;
     background: rgb(0, 106, 80);
 }
 
@@ -273,7 +282,7 @@ h2 {
 }
 
 .des-div2 {
-    padding-left: 90px;
+    padding-left: 50px;
 }
     
 h2 {
@@ -304,12 +313,14 @@ h2 {
 .btn42 {
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
-    border-radius: 8px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
     background: rgb(0, 106, 80);
 }
 
@@ -324,7 +335,7 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 50px;
+    padding: 25px;
 }
 
 .h1class { 
@@ -341,7 +352,6 @@ h2 {
     Font: Fira Sans;
     font-weight: 400;
     font-size: 16px;
-    padding: 50px 100px;
     text-align: center;
 }
 
@@ -394,6 +404,7 @@ h2 {
     height: 50px;
     padding: 10px;
     font-weight: 500;
+    letter-spacing: 1px;
     border: 2px solid white;
     border-radius: 10px;
     background: rgb(255, 255, 255);
@@ -404,11 +415,11 @@ h2 {
 }
 
 .btn5 {
-    padding: 15px;
+    padding: 10px 20px;
     margin: 20px;
-    border: 1px solid black;
+    border: none;
     border-radius: 10%;
-    background-color: green;
+    background-color: hwb(120 4% 66% / 0.895);
     border: none;
     color: white;
     font-family: Fira-sans;
@@ -455,6 +466,7 @@ h2 {
     background: green;
     color: white;
     border-right: 10%;
+    padding: 10px 20px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-left: 0;
