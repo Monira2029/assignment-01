@@ -436,8 +436,42 @@ h2 {
     border: 1px solid white;
 }
 
+.last {
+    position: static;
+    width: 1350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 10px 20px 40px;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
 .pp {
     background-image: url("/images/quote-bg.png");
-    font-family: Fira-sans;
     background-repeat: no-repeat;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.p2h2 {
+    Font: Fira Sans;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ppp {
+    font-family: Fira Sans;
+    font-weight: 400;
+    font-size: 16px;
 }
